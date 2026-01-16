@@ -8,7 +8,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os
 
-from models.simple_nn import SimpleNN
+from simple_nn import SimpleNN
 
 def load_fashion_mnist(batch_size=64):
     """
